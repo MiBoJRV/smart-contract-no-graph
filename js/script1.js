@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const removeButton = createRemoveButton();
 
     // Добавление кнопок в контейнер
-    blockContainer.appendChild(uploadButton);
+    // blockContainer.appendChild(uploadButton);
 
     // Обработчик события для кнопки загрузки
     uploadButton.addEventListener('click', function () {
